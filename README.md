@@ -1,7 +1,7 @@
-💓 Heart Disease Prediction App
+**💓 Heart Disease Prediction App**
 This project is a Machine Learning-powered Streamlit web application that predicts a patient's risk of heart disease based on several health-related features.
 
-📂 Project Structure
+**📂 Project Structure**
 Heart Disease Prediction.ipynb — Jupyter notebook used to train and evaluate the heart disease prediction model.
 
 HeartDiseaseTrain-Test.csv — Dataset containing patient information used for training and testing the model.
@@ -10,14 +10,14 @@ app.py — Streamlit web application to interactively predict heart disease risk
 
 heart_disease_model.pkl — Pre-trained machine learning model saved via joblib (must be present in the same directory).
 
-🛠️ Features
+**🛠️ Features**
 Collects user input (age, blood pressure, cholesterol, etc.) through an interactive web interface.
 
 Predicts whether a patient has a high risk or low risk of heart disease.
 
 Simple, clean UI built with Streamlit.
 
-📊 Input Fields
+**📊 Input Fields**
 Age
 
 Resting Blood Pressure
@@ -44,7 +44,7 @@ Number of Major Vessels Colored by Fluoroscopy
 
 Thalassemia Type
 
-🚀 How to Run the App
+**🚀 How to Run the App**
 Clone the repository or download the project files.
 
 Make sure you have the required Python packages installed:
@@ -57,7 +57,7 @@ streamlit run app.py
 
 Open the provided local URL in your browser to use the app.
 
-📈 Model Training
+**📈 Model Training**
 The model is trained using a dataset (HeartDiseaseTrain-Test.csv) containing patient records with various clinical attributes. Key steps:
 
 Data preprocessing
@@ -68,7 +68,7 @@ Model training (likely a classification algorithm — exact model type can be ve
 
 Saving the model with joblib
 
-📋 Requirements
+**📋 Requirements**
 Python 3.7+
 
 Streamlit
@@ -81,12 +81,12 @@ numpy
 
 joblib
 
-⚠️ Important
+**⚠️ Important**
 The app uses categorical encoding via dropdowns to match the model's expectations (e.g., sex encoded as 0 or 1).
 
 Some field descriptions (like thalassemia types) are mapped manually in the UI for user-friendly selection.
 
-✨ Future Improvements
+**✨ Future Improvements**
 Improve model accuracy using hyperparameter tuning.
 
 Add model explainability (e.g., SHAP plots).
